@@ -58,4 +58,5 @@
 .myGrid div:nth-child(10){
     filter: hue-rotate();
     filter: drop-shadow();
+    grid-column: 2;
 }
