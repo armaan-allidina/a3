@@ -1,0 +1,80 @@
+.myGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.myGrid div:nth-child(1){
+    background-color: lab(50 20 40);
+}
+.myGrid div:nth-child(2){
+    float: left;
+    background-image: linear-gradient(45deg, red, transparent 80%,transparent);
+    shape-outside: linear-gradient(45deg, red, transparent 80%, transparent);
+    shape-image-threshold: 0.4;
+    background-color: lch(50% 132 130);
+}
+.myGrid div:nth-child(3){
+    float: left;
+    shape-outside: circle(50%);
+    clip-path: circle(50%);
+    background-color: oklab(0.5 -0.3 -0.4);
+}
+.myGrid__circ{
+    padding: 100px;
+    margin: 10px;
+    border: 10px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.myGrid__circ--1{
+    shape-outside: margin-box;
+}
+.myGrid div:nth-child(4){
+    background-color: oklch(60% 0.57 161);
+}
+.myGrid__circ--2{
+    shape-outside: border-box;
+}
+.myGrid div:nth-child(5){
+    float: left;
+
+    background-color: color(xyz 0 .8 0);
+}
+.myGrid__s{
+    float: left;
+    height: 200px;
+    width: 200px;
+    shape-outside: inset(20px 10px 20px 10px round 10px);
+}
+.myGrid div:nth-child(6){
+    background-color: color(rec2020 1 0 0);
+}
+.myGrid__p{
+    float: left;
+    shape-outside: polygon(0px 0px, 0px 189px, 100.48% 94.71%, 200px 120px, 80.67% 37.17%);
+    width: 200px;
+    height: 200px;
+    background-color: color(display-p3 .5 .2 1);  
+}
+.myGrid div:nth-child(7){
+    background-color: color(display-p3 .5 .2 1);
+}
+.myGrid div:nth-child(8){
+    background-color: color-mix(in srgb, #00CC00 50%, #ff00ff 50%);
+}
+.myGrid div:nth-child(9){
+    min-height: 35.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(../img/1.png);
+    background-color: cyan;
+    background-blend-mode: multiply; 
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.myGrid div:nth-child(10){
+    filter: hue-rotate(90deg);
+    filter: drop-shadow(16px 16px 16px green) invert(75%);
+    grid-column: 2;
+}

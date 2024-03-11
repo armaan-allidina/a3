@@ -1,0 +1,10 @@
+.myGrid__img1{
+    float: left;
+    shape-outside: circle(50%);
+}
+.myGrid__img8{
+    float: left;
+    shape-outside: url(../img/8.png);
+    shape-image-threshold: .2;
+    shape-margin: 2px;
+}

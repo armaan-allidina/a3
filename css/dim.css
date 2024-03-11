@@ -1,0 +1,13 @@
+.dimG{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.dim{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 180, 0);
+}
+.dim__3d{
+    transform: perspective(500px) translate3d(50px, 0px, 100px);
+    background-color: red;
+}

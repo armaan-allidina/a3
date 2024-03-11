@@ -1,0 +1,22 @@
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    position: absolute;
+  }
+  
+  .circle--1 {
+    background-color: brown;
+  }
+  
+.circle--2 {
+    background-color: green;
+    left: 1400px;
+  }
+  
+  .circle--1{
+    background-color: blue;
+    left: 1375px;
+    bottom: -210px;
+  }
