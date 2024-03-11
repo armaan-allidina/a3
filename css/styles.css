@@ -46,7 +46,7 @@
 }
 .myGrid div:nth-child(8){
     float: left;
-    shape-outside: circle(50%);
+    shape-outside: url();
     background-color: color-mix(in srgb, #00CC00 50%, #ff00ff 50%);
 }
 .myGrid div:nth-child(9){
