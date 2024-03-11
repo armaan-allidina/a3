@@ -51,7 +51,6 @@
 }
 .myGrid div:nth-child(9){
     float: left;
-    shape-outside: circle(50%);
     background-color: cyan;
     /* mix-blend-mode: multiply; */
 }
