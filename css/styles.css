@@ -41,7 +41,7 @@
 }
 .myGrid div:nth-child(7){
     float: left;
-    shape-outside: circle(50%);
+    shape-outside: polygon(50%);
     background-color: color(display-p3 .5 .2 1);
 }
 .myGrid div:nth-child(8){
