@@ -76,7 +76,7 @@
         </div>
         <div>
             <div class="myGrid__circ myGrid__cric--1"></div>
-            #include<iostream>
+            #include
                 using namespace std;
                 int main(){
                 int numberOfTerms;
@@ -148,9 +148,9 @@
         <div>
             <div class="myGrid__p"></div>
             #include"./Matrix.h"
-            #include<iostream>
-                using namespace std;
-                int main(){
+            #include
+            using namespace std;
+            int main(){
                 Matrix m1;//A
                 Matrix m2;//B
                 Matrix m3;//C
@@ -178,7 +178,7 @@
                 m5=m1.multiply(m3);
                 m5.write();
                 return 0;
-                } 
+            } 
         </div>
         <div>
             <img src="img/8.png" alt="8" class="myGrid__img1">
@@ -213,8 +213,8 @@
             if (y==0)
             throw div_by_zero_error("ERROR");
             else
-            return static_cast<double>(x)/y;
-                } 
+            return static_cast(x)/y;
+            } 
         </div>
         <div></div>
         <div>
