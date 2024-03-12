@@ -54,7 +54,6 @@
     shape-outside: polygon(0px 0px, 0px 189px, 100.48% 94.71%, 200px 120px, 80.67% 37.17%);
     width: 200px;
     height: 200px;
-    background-color: color(display-p3 .5 .2 1);  
 }
 .myGrid div:nth-child(7){
     background-color: color(display-p3 .5 .2 1);
