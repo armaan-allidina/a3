@@ -12,11 +12,11 @@
   
 .circle--2 {
     background-color: green;
-    left: 1400px;
+    left: 1600px;
   }
   
-  .circle--1{
+  .circle--3{
     background-color: blue;
-    left: 1375px;
-    bottom: -210px;
+    left: 1615px;
+    bottom: -15px;
   }

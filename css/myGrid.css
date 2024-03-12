@@ -63,11 +63,11 @@
     background-color: color-mix(in srgb, #00CC00 50%, #ff00ff 50%);
 }
 .myGrid div:nth-child(9){
-    min-height: 35.5vh;
+    min-height: 35.5vh; 
     display: flex;
     justify-content: center;
     align-items: end;
-    background-image: url(../img/1.png);
+    background-image: url(../img/1.png); 
     background-color: cyan;
     background-blend-mode: multiply; 
     background-position: center top;
@@ -76,5 +76,5 @@
 .myGrid div:nth-child(10){
     filter: hue-rotate(90deg);
     filter: drop-shadow(16px 16px 16px green) invert(75%);
-    grid-column: 2;
+    grid-column: 2; 
 }
